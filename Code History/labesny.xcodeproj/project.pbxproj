@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F88A0902D08BC4E00960FDF /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F88A0A12D08BC5000960FDF /* Code HistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code HistoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F88A0AB2D08BC5000960FDF /* Code HistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code HistoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F88A0902D08BC4E00960FDF /* labesny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = labesny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F88A0A12D08BC5000960FDF /* labesnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labesnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F88A0AB2D08BC5000960FDF /* labesnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labesnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		4F88A0912D08BC4E00960FDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F88A0902D08BC4E00960FDF /* Code History.app */,
-				4F88A0A12D08BC5000960FDF /* Code HistoryTests.xctest */,
-				4F88A0AB2D08BC5000960FDF /* Code HistoryUITests.xctest */,
+				4F88A0902D08BC4E00960FDF /* labesny.app */,
+				4F88A0A12D08BC5000960FDF /* labesnyTests.xctest */,
+				4F88A0AB2D08BC5000960FDF /* labesnyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F88A08F2D08BC4E00960FDF /* Code History */ = {
+		4F88A08F2D08BC4E00960FDF /* labesny */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F88A0B52D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code History" */;
+			buildConfigurationList = 4F88A0B52D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesny" */;
 			buildPhases = (
 				4F88A08C2D08BC4E00960FDF /* Sources */,
 				4F88A08D2D08BC4E00960FDF /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				4F88A0922D08BC4E00960FDF /* Code History */,
 			);
-			name = "Code History";
+			name = labesny;
 			packageProductDependencies = (
 			);
 			productName = "Code History";
-			productReference = 4F88A0902D08BC4E00960FDF /* Code History.app */;
+			productReference = 4F88A0902D08BC4E00960FDF /* labesny.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F88A0A02D08BC5000960FDF /* Code HistoryTests */ = {
+		4F88A0A02D08BC5000960FDF /* labesnyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F88A0B82D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code HistoryTests" */;
+			buildConfigurationList = 4F88A0B82D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesnyTests" */;
 			buildPhases = (
 				4F88A09D2D08BC5000960FDF /* Sources */,
 				4F88A09E2D08BC5000960FDF /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				4F88A0A42D08BC5000960FDF /* Code HistoryTests */,
 			);
-			name = "Code HistoryTests";
+			name = labesnyTests;
 			packageProductDependencies = (
 			);
 			productName = "Code HistoryTests";
-			productReference = 4F88A0A12D08BC5000960FDF /* Code HistoryTests.xctest */;
+			productReference = 4F88A0A12D08BC5000960FDF /* labesnyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F88A0AA2D08BC5000960FDF /* Code HistoryUITests */ = {
+		4F88A0AA2D08BC5000960FDF /* labesnyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F88A0BB2D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code HistoryUITests" */;
+			buildConfigurationList = 4F88A0BB2D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesnyUITests" */;
 			buildPhases = (
 				4F88A0A72D08BC5000960FDF /* Sources */,
 				4F88A0A82D08BC5000960FDF /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				4F88A0AE2D08BC5000960FDF /* Code HistoryUITests */,
 			);
-			name = "Code HistoryUITests";
+			name = labesnyUITests;
 			packageProductDependencies = (
 			);
 			productName = "Code HistoryUITests";
-			productReference = 4F88A0AB2D08BC5000960FDF /* Code HistoryUITests.xctest */;
+			productReference = 4F88A0AB2D08BC5000960FDF /* labesnyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F88A08B2D08BC4E00960FDF /* Build configuration list for PBXProject "Code History" */;
+			buildConfigurationList = 4F88A08B2D08BC4E00960FDF /* Build configuration list for PBXProject "labesny" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F88A08F2D08BC4E00960FDF /* Code History */,
-				4F88A0A02D08BC5000960FDF /* Code HistoryTests */,
-				4F88A0AA2D08BC5000960FDF /* Code HistoryUITests */,
+				4F88A08F2D08BC4E00960FDF /* labesny */,
+				4F88A0A02D08BC5000960FDF /* labesnyTests */,
+				4F88A0AA2D08BC5000960FDF /* labesnyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		4F88A0A32D08BC5000960FDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F88A08F2D08BC4E00960FDF /* Code History */;
+			target = 4F88A08F2D08BC4E00960FDF /* labesny */;
 			targetProxy = 4F88A0A22D08BC5000960FDF /* PBXContainerItemProxy */;
 		};
 		4F88A0AD2D08BC5000960FDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F88A08F2D08BC4E00960FDF /* Code History */;
+			target = 4F88A08F2D08BC4E00960FDF /* labesny */;
 			targetProxy = 4F88A0AC2D08BC5000960FDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code History.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Code History";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labesny.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/labesny";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
@@ -498,7 +498,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Code History.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Code History";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/labesny.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/labesny";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
@@ -548,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F88A08B2D08BC4E00960FDF /* Build configuration list for PBXProject "Code History" */ = {
+		4F88A08B2D08BC4E00960FDF /* Build configuration list for PBXProject "labesny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F88A0B32D08BC5000960FDF /* Debug */,
@@ -557,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F88A0B52D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code History" */ = {
+		4F88A0B52D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F88A0B62D08BC5000960FDF /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F88A0B82D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code HistoryTests" */ = {
+		4F88A0B82D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesnyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F88A0B92D08BC5000960FDF /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F88A0BB2D08BC5000960FDF /* Build configuration list for PBXNativeTarget "Code HistoryUITests" */ = {
+		4F88A0BB2D08BC5000960FDF /* Build configuration list for PBXNativeTarget "labesnyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F88A0BC2D08BC5000960FDF /* Debug */,
