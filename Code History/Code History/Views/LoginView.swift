@@ -35,7 +35,7 @@ struct LoginView: View {
                             .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     .padding(.horizontal)
-                    NavigationLink(destination: HomeView())
+                    NavigationLink(destination: ContentView())
                     {
                         Text("LOGIN")
                             .font(.system(size: 16, weight: .semibold))
